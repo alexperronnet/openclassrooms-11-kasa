@@ -36,7 +36,7 @@ const StyledBanner = styled.section<{ image: BannerProps['background'] }>`
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: var(--color-neutral-900);
+    background-color: var(--color-black);
     opacity: 0.3;
   }
 `

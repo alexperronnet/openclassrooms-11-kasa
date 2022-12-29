@@ -7,7 +7,7 @@ import { Home, About, Accommodation, NotFound } from '@/pages'
 import { useFetchData } from '@/hooks'
 
 export const App: FC = () => {
-  const { data } = useFetchData()
+  const { data, loading, error } = useFetchData('/api/api-mock.json')
 
   return (
     <ThemeProvider theme={theme}>
@@ -16,7 +16,7 @@ export const App: FC = () => {
         <Header />
         <Routes>
           <Route path="*" element={<NotFound />} />
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home data={data} loading={loading} error={error} />} />
           <Route path="/a-propos" element={<About />} />
           {data?.map(item => (
             <Route key={item.id} path={`/hebergement/${item.id}`} element={<Accommodation />} />
