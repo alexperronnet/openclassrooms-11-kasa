@@ -1,4 +1,4 @@
-# Kasa (Original version)
+# Kasa (Advanced version)
 
 ![Preview](doc/preview.png)
 
