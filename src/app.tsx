@@ -19,7 +19,11 @@ export const App: FC = () => {
           <Route path="/" element={<Home data={data} loading={loading} error={error} />} />
           <Route path="/a-propos" element={<About />} />
           {data?.map(item => (
-            <Route key={item.id} path={`/hebergement/${item.id}`} element={<Accommodation />} />
+            <Route
+              key={item.id}
+              path={`/hebergement/${item.id}`}
+              element={<Accommodation data={item} />}
+            />
           ))}
         </Routes>
         <Footer />

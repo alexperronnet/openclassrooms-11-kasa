@@ -110,8 +110,8 @@ const StyledList = styled.ul`
 
 const StyledItem = styled.li`
   font-size: var(--text-sm);
-  color: var(--color-coral-500);
-  background-color: var(--color-coral-100);
+  color: var(--color-primary-600);
+  background-color: var(--color-primary-100);
   padding: 0.5rem 1rem;
   border-radius: var(--rounded-full);
 `
