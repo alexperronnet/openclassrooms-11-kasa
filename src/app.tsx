@@ -2,7 +2,7 @@ import { FC } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { ThemeProvider } from 'styled-components'
 import { theme, GlobalStyle } from '@/styles'
-import { Header, Footer } from '@/layout'
+import { Header, Footer, BackToTop } from '@/layout'
 import { Home, About, Accommodation, NotFound } from '@/pages'
 import { useFetchData } from '@/hooks'
 
@@ -27,6 +27,7 @@ export const App: FC = () => {
           ))}
         </Routes>
         <Footer />
+        <BackToTop />
       </BrowserRouter>
     </ThemeProvider>
   )

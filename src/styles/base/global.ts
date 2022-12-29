@@ -23,6 +23,19 @@ export const GlobalStyle = createGlobalStyle`
     background-color: var(--color-black);
   }
 
+  ::-webkit-scrollbar {
+    width: .5rem;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--color-primary-400);
+    border-radius: var(--rounded-full);
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: var(--color-primary-100);
+  }
+
   #root {
     display: flex;
     flex-direction: column;
