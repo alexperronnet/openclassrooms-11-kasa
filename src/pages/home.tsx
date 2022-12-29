@@ -3,8 +3,11 @@ import styled from 'styled-components'
 import { Banner, Gallery, Icon } from '@/components'
 import { ApiResultTypes } from '@/types'
 import bannerHomeSrc from '@/assets/images/banner-home.webp'
+import { useSeo } from '@/hooks'
 
 export const Home: FC<ApiResultTypes> = ({ data, loading, error }) => {
+  useSeo({ page: 'Accueil' })
+
   return (
     <StyledMain>
       <Banner background={bannerHomeSrc} title="Chez vous, partout et ailleurs" />

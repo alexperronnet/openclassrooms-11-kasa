@@ -1,8 +1,11 @@
 import { FC } from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
+import { useSeo } from '@/hooks'
 
 export const NotFound: FC = () => {
+  useSeo({ page: 'Page introuvable' })
+
   return (
     <StyledNotFound>
       <StyledInfos>

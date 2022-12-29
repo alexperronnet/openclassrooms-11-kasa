@@ -2,12 +2,15 @@ import { FC } from 'react'
 import styled from 'styled-components'
 import { Accordion, Avatar, Rating, Carousel } from '@/components'
 import { AccommodationTypes } from '@/types'
+import { useSeo } from '@/hooks'
 
 type AccommodationProps = {
   data: AccommodationTypes
 }
 
 export const Accommodation: FC<AccommodationProps> = ({ data }) => {
+  useSeo({ page: data.title })
+
   return (
     <StyledMain>
       <Carousel pictures={data.pictures} />

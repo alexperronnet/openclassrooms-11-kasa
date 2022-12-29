@@ -2,8 +2,11 @@ import { FC } from 'react'
 import styled from 'styled-components'
 import { Banner, Accordion } from '@/components'
 import bannerAboutSrc from '@/assets/images/banner-about.webp'
+import { useSeo } from '@/hooks'
 
 export const About: FC = () => {
+  useSeo({ page: 'À propos' })
+
   const aboutContent = [
     {
       title: 'Fiabilité',
