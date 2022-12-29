@@ -23,6 +23,7 @@ const StyledBanner = styled.section<{ image: BannerProps['background'] }>`
   background: url(${({ image }) => image}) center / cover;
   border-radius: var(--rounded-md);
   overflow: hidden;
+  box-shadow: var(--shadow-xl);
 
   @media (${({ theme }) => theme.bp.sm}) {
     height: 10rem;
