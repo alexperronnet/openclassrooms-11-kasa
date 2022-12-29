@@ -28,5 +28,8 @@ export const GlobalStyle = createGlobalStyle`
     flex-direction: column;
     justify-content: space-between;
     min-height: 100vh;
+    max-width: 80rem;
+    width: calc(100% - 2rem);
+    margin-inline: auto;
   }
 `
