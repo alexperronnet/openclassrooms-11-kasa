@@ -9,8 +9,7 @@
     "preview": "vite preview",
     "lint": "eslint --ext .ts,.tsx src",
     "lint:fix": "pnpm run lint -- --fix",
-    "format": "prettier --write \"src/**/*.{ts,tsx}\"",
-    "deploy": "bash ./bin/deploy.sh"
+    "format": "prettier --write \"src/**/*.{ts,tsx}\""
   },
   "dependencies": {
     "react": "^18.2.0",

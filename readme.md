@@ -1,5 +1,9 @@
 # Kasa (Advanced version)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/72d318b5-59e4-4e1b-91e1-b79844e893cf/deploy-status)](https://app.netlify.com/sites/openclassrooms-11-kasa/deploys)
+
+> **Disclaimer**: This repository houses a project undertaken as part of my "**JavaScript React Developer**" training program with [OpenClassrooms](https://openclassrooms.com/). Upon the conclusion of the program on **September 20th, 2023**, the project will no longer be updated or maintained.
+
 ![Preview](doc/preview.png)
 
 ## Overview
@@ -27,13 +31,13 @@ For this project I used the following technologies:
 ### Clone the repository
 
 ```bash
-git clone https://github.com/alexperronnet/openclassrooms-p11-kasa.git
+git clone https://github.com/alexperronnet/openclassrooms-11-kasa.git
 ```
 
 ### Navigate to the project folder
 
 ```bash
-cd openclassrooms-p11-kasa
+cd openclassrooms-11-kasa
 ```
 
 ### Install dependencies
@@ -50,7 +54,7 @@ pnpm run dev #or npm run dev or yarn dev
 
 ## Deployment
 
-The application is deployed on [Netlify](https://www.netlify.com/). You can find it [here](https://kasa.alexperronnet.dev/).
+The application is deployed on [Netlify](https://www.netlify.com/).
 
 ## License
 
