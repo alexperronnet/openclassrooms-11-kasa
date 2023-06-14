@@ -1,4 +1,4 @@
-# Kasa (Advanced version)
+# Kasa
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/72d318b5-59e4-4e1b-91e1-b79844e893cf/deploy-status)](https://app.netlify.com/sites/openclassrooms-11-kasa/deploys)
 
@@ -9,8 +9,6 @@
 ## Overview
 
 For this project I had to create a website for a real estate agency. The agency is called Kasa and it is a fictitious agency.
-
-> This version is the advanced version of the project. I have made a first version of the project, which is more basic. You can find it [here](https://github.com/alexperronnet/openclassrooms-p11-kasa/tree/main-v1)
 
 ## Stack
 
