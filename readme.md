@@ -1,9 +1,7 @@
 # Kasa
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/72d318b5-59e4-4e1b-91e1-b79844e893cf/deploy-status)](https://app.netlify.com/sites/openclassrooms-11-kasa/deploys)
-
 > [!CAUTION]
-> This repository contains a project completed as part of my training at [OpenClassrooms](https://openclassrooms.com). Having successfully concluded the program, the project is now archived and is no longer maintained. Please note that the repository remains available for reference purposes only; some links or features may not work as expected.
+> This repository hosts a project completed as part of my [OpenClassrooms](https://openclassrooms.com) training program. Having successfully completed the program, the project has now been archived and will no longer be actively maintained. Please be aware that while the repository will remain accessible for reference, some links or features may no longer function as intended.
 
 ![Preview](doc/preview.png)
 
